@@ -7,7 +7,7 @@ public class InputMismatch
 {
 	public static void main(String[]args)
 	  {
-		InputMissmatch obj=new InputMissmatch();
+		InputMismatch obj=new InputMismatch();
 	    obj.sum();
 	  }
 	public void sum()
