@@ -2,7 +2,6 @@ package com.exceptionhandling;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.*;
 import java.util.*;
  
 public class CheckedException 
