@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Division
 { 
 		   
-		   public String divideTwoNumbers(int number1,intnumber2)
+		   public String divideTwoNumbers(int number1,int number2)
 		   {
-			   int value=0;
+			   int value;
 			   String str="";
 			      
 		    try
@@ -19,7 +19,7 @@ public class Division
 		    }
 		    finally
 			{
-				return(srt+"Thanks for using the application.");
+				return(srt+". Thanks for using the application.");
 			}
 		  }
 		public static void main(String[]args)
