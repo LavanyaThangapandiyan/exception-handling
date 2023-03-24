@@ -26,7 +26,7 @@ public class Division
 		{
 			Scanner sc=new Scanner(System.in);
 			System.out.println("Enter the numbers");
-			int num1= scn.nextInt();
+			int num1= sc.nextInt();
 			int num2=sc.nextInt();
 			Division div=new Division();
 			System.out.print(div.divideTwoNumbers(num1,num2));
