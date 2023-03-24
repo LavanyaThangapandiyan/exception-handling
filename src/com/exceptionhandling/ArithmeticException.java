@@ -1,36 +1,38 @@
 package com.exceptionhandling;
 import java.util.Scanner;
-class ArithmeticException
+public class Division
 { 
-		   public static void main(String[]args)
-			  {
-			   ArithmeticException obj=new ArithmeticException();
-			   obj.divide();
-			  }
-		   public void divide()
+		   
+		   public String divideTwoNumbers(int number1,intnumber2)
 		   {
-			   
-		    Scanner input = new Scanner (System.in);
-		    System.out.print("Enter the first number: ");
-		    int a = input.nextInt();
-		    System.out.print("Enter the second number: ");
-		    int b = input.nextInt();
+			   int value=0;
+			   String str="";
+			      
 		    try
 		    {
-		    int result = (a/b);
-		    System.out.println("The division of a and b is:" +result);
+		    value=number1/number2;
+	            str = ("The answer is"+value);
 		    }
-		    catch (Exception e)
+		    catch (ArithmeticException e)
 		    {
-		    System.out.println("Please check Second Number ");
-		    divide();
+		    str = "Division by Zero is not possible";
 		    }
 		    finally
 			{
-				System.out.println("The finally Block");
+				return(srt+"Thanks for using the application.");
 			}
 		  }
+		public static void main(String[]args)
+		{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter the numbers");
+			int num1= scn.nextInt();
+			int num2=sc.nextInt();
+			Division div=new Division();
+			System.out.print(div.divideTwoNumbers(num1,num2));
 		}
+}
+			
 
 
 
