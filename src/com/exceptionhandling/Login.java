@@ -23,9 +23,9 @@ class LoginForm
     	String email,password;
     	String ex;
     	Scanner sc= new Scanner(System.in);
-    	System.out.println("enter the email id");
+    	System.out.println("Enter the email id");
     	email=sc.nextLine();
-    	System.out.println("enter the password");
+    	System.out.println("Enter the Password");
     	password=sc.nextLine();
     	Login obj=new Login();
     	ex=obj.login(email,password);
